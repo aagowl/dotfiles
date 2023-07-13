@@ -1,7 +1,7 @@
 # Dotfiles
 At the moment this is my first rice!
 
-##Dotfiles in this repo 
+## Dotfiles in this repo 
 - qtile
 - alacritty
 - neofetch
@@ -9,4 +9,4 @@ At the moment this is my first rice!
 - visual studio code
 - picom ..?
 
-##Dependencies
+## Dependencies
