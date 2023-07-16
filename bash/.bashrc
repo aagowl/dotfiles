@@ -143,7 +143,7 @@ ex ()
 # 	source /home/aagowl/.config/synth-shell/synth-shell-greeter.sh
 # fi
 blueman-applet &>dev/null
-nm-applet &
+nm-applet &>dev/null
 clear
 nitch
 
