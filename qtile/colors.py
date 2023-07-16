@@ -6,6 +6,6 @@ colors = {
     "pink" : "#EF6351",
     "yellow" : "#FFBA49",
     "green" : "#a1b56c",
-    "blue" : "#81a2be",
+    "blue" : "#6b70b0",
     "purple" : "#84569f",
 }
