@@ -5,7 +5,7 @@ colors = {
     "light" : "#F9F2CF",
     "pink" : "#EF6351",
     "yellow" : "#FFBA49",
-    "green" : "#a1b56c",
-    "blue" : "#6b70b0",
+    "green" : "#A1B56C",
+    "blue" : "#6B70B0",
     "purple" : "#84569f",
 }
