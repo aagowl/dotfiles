@@ -4,15 +4,16 @@ At the moment this is my first rice! As always with these sorts of things this i
 ![A screenshot of an empty screen showcasing a wallpaper with grey sci-fi esc buildings and green trees on a sunny day. Spaceships are causally flying in the background. At the bottom of the screen is a bar showcasing some key information about the computer's functionality.](./photos/first_rice_wallpaper.png?raw=true)
 
 ## Dotfiles in this repo 
-- Qtile
-- Alacritty
+- Window Manager • Qtile
+- Teminal • Alacritty
   - this is basically the default config file at the moment, but with prettier colors
-- Bash
+- Shell • Bash with Synth-Shell
   - contains .bashrc and synth-shell-prompt.config
   - I also use other default synth shell stuff like better history
-- Code OSS
+- Text Editor • Code OSS
   - my custom theme
   - settings.json includes discord rich presence specifications
+- Wallpaper • [Busy Day from Pixel Art Wallpaper Pack #2](https://norma-2d.itch.io/free-pixel-art-wallpaper-pack-2) by [Norma2D](https://norma-2d.itch.io/)
 
 ## Colors!
 Basically everything that I've done have used the following colors
