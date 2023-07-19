@@ -37,9 +37,10 @@ notifier = Notifier()
 ####### CONSTANTS #######
 
 key_move_left = "h"
-key_move_right = "j"
-key_move_down = "k"
-key_move_up = "l"
+key_move_down = "j"
+key_move_up = "k"
+key_move_right = "l"
+
 
 mod = "mod4"
 terminal = "alacritty"
