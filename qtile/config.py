@@ -282,10 +282,19 @@ screens = [
                 ),
                 widget.Clock(format="%B %d %H:%M", width=145),
 
-                widget.Sep(foreground=colors['purple']),
+                widget.TextBox(
+                    text='\uEB6F',
+                    foreground=colors["pink"],
+                    background=colors["dark"],
+                    fontsize= 36,
+                    padding=0
+                ),
+
                 widget.QuickExit(
                     default_text='\u23FB',
                     countdown_format='[{}]',
+                    background=colors["pink"],
+                    foreground=colors["dark"],
                     width=180
                 ),
             ],
