@@ -197,10 +197,11 @@ screens = [
                     width=240,
                 ),
                 widget.TextBox(
-                    text='\uE0B0',
+                    text='\ue0c4',
+                    width= 25,
                     foreground=colors["dark"],
                     background=colors["lessDark"],
-                    fontsize= 18,
+                    fontsize= 23,
                     padding=0
                 ),
                 widget.Sep(
@@ -221,7 +222,7 @@ screens = [
                     size_percent=100
                 ),
                 widget.TextBox(
-                    text='\uE0B0',
+                    text='\ue0b0',
                     foreground=colors["lessDark"],
                     background=colors["pink"],
                     fontsize= 18,
@@ -283,14 +284,15 @@ screens = [
                 widget.Clock(format="%B %d %H:%M", width=145),
 
                 widget.TextBox(
-                    text='\uEB6F',
+                    text='\ue0b2',
                     foreground=colors["pink"],
                     background=colors["dark"],
-                    fontsize= 36,
+                    fontsize= 18,
                     padding=0
                 ),
 
                 widget.QuickExit(
+                    padding= 15,
                     default_text='\u23FB',
                     countdown_format='[{}]',
                     background=colors["pink"],
