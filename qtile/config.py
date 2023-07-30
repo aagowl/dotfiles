@@ -197,11 +197,11 @@ screens = [
                     width=240,
                 ),
                 widget.TextBox(
-                    text='\ue0c4',
-                    width= 25,
+                    text='▓▒░',
+                    # width= 25,
                     foreground=colors["dark"],
                     background=colors["lessDark"],
-                    fontsize= 23,
+                    fontsize= 20,
                     padding=0
                 ),
                 widget.Sep(
