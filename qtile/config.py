@@ -204,15 +204,18 @@ screens = [
                     fontsize= 20,
                     padding=0
                 ),
+                
                 widget.Sep(
                     foreground=colors['lessDark'],
                     background= colors['lessDark'],
-                    padding=120,
+                    padding=180,
                     line_width=50, 
                     size_percent=100
                 ),
 
-                widget.Systray(background=colors["lessDark"]),
+                widget.Systray(
+                    background=colors["lessDark"],
+                ),
                 widget.BatteryIcon(update_interval=30, background=colors["lessDark"]),
                 widget.Sep(
                     foreground=colors['lessDark'],
@@ -230,8 +233,10 @@ screens = [
                 ),
                 
                 # widget.Sep(foreground=colors['pink'], background= colors['lessDark']),
+                # User
                 widget.TextBox(
-                    text="USER:",
+                    text="\uf007",
+                    width=20,
                     background=colors['pink'],
                     foreground=colors['dark'],
                 ),
@@ -240,9 +245,12 @@ screens = [
                     name="default",
                 ),
 
+                # Updates
                 widget.Sep(foreground=colors['yellow']),
                 widget.TextBox(
-                    text="UPDATES:",
+                    text="\ufbae",
+                    fontsize= 16,
+                    width=20,
                     background=colors['yellow'],
                     foreground=colors['dark']
                 ),
@@ -254,9 +262,11 @@ screens = [
                     width=80
                 ),
 
+                # CPU
                 widget.Sep(foreground=colors['green']),
                 widget.TextBox(
-                    text="CPU:",
+                    text="\uf4bc",
+                    width=20,
                     background=colors['green'],
                     foreground=colors['dark'],
                 ),
@@ -265,9 +275,11 @@ screens = [
                     width=90
                 ),
 
+                # Memory
                 widget.Sep(foreground=colors['blue']),
                 widget.TextBox(
-                    text="MEMORY:",
+                    text="\ue28c",
+                    width=20,
                     background=colors['blue'],
                     foreground=colors['dark']
                 ),
@@ -275,9 +287,12 @@ screens = [
                     format='{MemUsed: .0f}{mm}/{MemTotal: .0f}{mm}'
                 ),
 
+                # time
                 widget.Sep(foreground=colors['purple']),
                 widget.TextBox(
-                    text="TIME:",
+                    text="\uf5ef",
+                    fontsize= 16,
+                    width=20,
                     background=colors['purple'],
                     foreground=colors['dark']
                 ),
@@ -287,7 +302,7 @@ screens = [
                     text='\ue0b2',
                     foreground=colors["pink"],
                     background=colors["dark"],
-                    fontsize= 18,
+                    fontsize= 30,
                     padding=0
                 ),
 
