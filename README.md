@@ -1,5 +1,6 @@
 # Dotfiles
-At the moment this is my first rice! As always with these sorts of things this is a work in progress.
+~~At the moment this is my first rice! As always with these sorts of things this is a work in progress.~~
+At the moment these are wildly out of date. I am now a Hyprland and Arch user (btw). New dots soon!
 ![A screenshot of a screen showcasing a terminal using a fetch script and an instance of Code OSS.](./photos/first_rice_code_and_term.png?raw=true)
 ![A screenshot of an empty screen showcasing a wallpaper with grey sci-fi esc buildings and green trees on a sunny day. Spaceships are causally flying in the background. At the bottom of the screen is a bar showcasing some key information about the computer's functionality.](./photos/first_rice_wallpaper.png?raw=true)
 
